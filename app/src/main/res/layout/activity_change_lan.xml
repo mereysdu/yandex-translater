@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.windows.translate.ChangeLan">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvRu"
+            android:layout_width="368dp"
+            android:layout_height="wrap_content"
+            android:text="Русский"
+            android:textSize="30dp"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="69dp" />
+
+        <TextView
+            android:id="@+id/tvKk"
+            android:layout_width="368dp"
+            android:layout_height="wrap_content"
+            android:text="Казахский"
+            android:textSize="30dp"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="176dp" />
+
+        <TextView
+            android:id="@+id/tvTr"
+            android:layout_width="368dp"
+            android:layout_height="wrap_content"
+            android:text="Турецкий"
+            android:textSize="30dp"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="123dp" />
+
+        <TextView
+            android:id="@+id/tvEn"
+            android:layout_width="368dp"
+            android:layout_height="wrap_content"
+            android:text="Английский"
+            android:textSize="30dp"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+    </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>
